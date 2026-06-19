@@ -53,3 +53,10 @@ _tmp/
 
 ### Package-specific ###
 tests/testthat/fileio
+src/rust/vendor
+src/Makevars
+src/Makevars.win
+src/*.
+src/*.so
+src/*.dll
+src/rust/.cargo/

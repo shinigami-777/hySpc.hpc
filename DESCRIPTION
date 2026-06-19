@@ -15,7 +15,8 @@ LazyData: yes
 Additional_repositories: 
     https://r-hyperspec.github.io/pkg-repo/
 Depends:
-    hyperSpec
+    hyperSpec,
+    R (>= 4.2)
 Imports:
     hySpc.testthat
 Suggests:
@@ -33,3 +34,5 @@ Collate:
     'demo_function.R'
     'package.R'
     'unittestdata.R'
+Config/rextendr/version: 0.4.2.9000
+SystemRequirements: Cargo (Rust's package manager), rustc >= 1.65.0, xz
